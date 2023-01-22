@@ -271,27 +271,27 @@ html {
     color: #fff;
   }
   
-  .card-movie--looper {
-    background-image: url("");
+  .card-movie--dark {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/looper.png");
   }
   
-  .card-movie--tron {
-    background-image: url("");
+  .card-movie--inception {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/tron.png");
   }
   
-  .card-movie--interstellar {
-    background-image: url("");
+  .card-movie--lord {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/interstellar.png");
     background-color: #fffffa;
   }
   
-  .card-movie--garden-state {
-    background-image: url("");
+  .card-movie--matrix {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/garden-state.png");
   }
   
-  .card-movie--walter-mitty {
-    background-image: url("");
+  .card-movie--star {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/walter-mitty.png");
   }
   
   .card-movie--cloud-atlas {
-    background-image: url("");
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/cloud-atlas.png");
   }
