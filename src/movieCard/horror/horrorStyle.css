@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    color: #676767;
+    color: whitesmoke;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 1.5;
@@ -260,7 +260,7 @@ html {
     background-color: #effdfd;
   }
   .card-movie--light [class*=__title] {
-    color: #000;
+    color: goldenrod;
   }
   
   .card-movie--dark {
@@ -272,24 +272,24 @@ html {
   }
   
   .card-movie--alien {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/looper.png");
+    background-image: url("../../assests/movieCardPics/Alien.png");
   }
   
   .card-movie--psycho {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/tron.png");
+    background-image: url("../../assests/movieCardPics/Psycho.jpg");
   }
   
   .card-movie--shining {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/interstellar.png");
+    background-image: url("../../assests/movieCardPics/TheShining.jpg");
     background-color: #fffffa;
   }
   
   .card-movie--thing {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/garden-state.png");
+    background-image: url("../../assests/movieCardPics/TheThing.jpg");
   }
   
   .card-movie--tumbbad {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/walter-mitty.png");
+    background-image: url("../../assests/movieCardPics/Tumbbad.jpeg");
   }
   
   .card-movie--cloud-atlas {

@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    color: #676767;
+    color: red;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 1.5;
@@ -260,7 +260,7 @@ html {
     background-color: #effdfd;
   }
   .card-movie--light [class*=__title] {
-    color: #000;
+    color: greenyellow;
   }
   
   .card-movie--dark {
@@ -272,28 +272,26 @@ html {
   }
   
   .card-movie--chhichhore {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/looper.png");
+    background-image: url("/chhichhore.725000b7.jpeg");
+    /* opacity: 0.5; */
   }
   
   .card-movie--lights {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/tron.png");
+    background-image: url("/citylights.38e922b6.jpeg");
   }
   
   .card-movie--forrest {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/interstellar.png");
+    background-image: url("/forrest.5c952a12.jpeg");
     background-color: #fffffa;
   }
   
   .card-movie--life {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/garden-state.png");
+    background-image: url("/lifeis.c3b19d10.jpeg");
   }
   
   .card-movie--modern {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/walter-mitty.png");
+    background-image: url("/moderntimes.f82a5882.jpeg");
   }
   
-  .card-movie--cloud-atlas {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/cloud-atlas.png");
-  }
 
 /*# sourceMappingURL=/romStyle.0d9879e4.css.map */

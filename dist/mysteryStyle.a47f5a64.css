@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  color: #676767;
+  color: greenyellow;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
@@ -260,7 +260,7 @@ body {
   background-color: #effdfd;
 }
 .card-movie--light [class*=__title] {
-  color: #000;
+  color: gold;
 }
 
 .card-movie--dark {
@@ -272,24 +272,24 @@ body {
 }
 
 .card-movie--lives {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/looper.png");
+  background-image: url("/ofothers.bddcf6ae.jpeg");
 }
 
 .card-movie--mirror {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/tron.png");
+  background-image: url("/Mirrorgame.49603e33.jpeg");
 }
 
 .card-movie--rear {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/interstellar.png");
+  background-image: url("/Rearwindow.5de765c1.jpeg");
   background-color: #fffffa;
 }
 
 .card-movie--seven {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/garden-state.png");
+  background-image: url("/seven.089a8607.jpeg");
 }
 
 .card-movie--silence {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/walter-mitty.png");
+  background-image: url("/thesilence.e19ea160.jpeg");
 }
 
 .card-movie--cloud-atlas {

@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    color: #676767;
+    color: red;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 1.5;
@@ -260,7 +260,7 @@ html {
     background-color: #effdfd;
   }
   .card-movie--light [class*=__title] {
-    color: #000;
+    color: gold;
   }
   
   .card-movie--dark {
@@ -268,28 +268,28 @@ html {
     color: #fff;
   }
   .card-movie--dark [class*=__title] {
-    color: #fff;
+    color: black;
   }
   
   .card-movie--dark {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/looper.png");
+    background-image: url("/TheDarkKnight.1565f5ce.jpg");
   }
   
   .card-movie--inception {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/tron.png");
+    background-image: url("/Inception.a9d954b8.jpg");
   }
   
   .card-movie--lord {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/interstellar.png");
+    background-image: url("/lordofring.b47199c5.jpg");
     background-color: #fffffa;
   }
   
   .card-movie--matrix {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/garden-state.png");
+    background-image: url("/TheMatrix.f6b80305.jpg");
   }
   
   .card-movie--star {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/walter-mitty.png");
+    background-image: url("/starwars.8442d3aa.jpg");
   }
   
   .card-movie--cloud-atlas {

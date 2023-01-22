@@ -24,13 +24,15 @@ function swapCards(direction) {
     const previousCardEl_1 = cardsContainerEl.querySelector(".previous--card-1");
     const nextCardEl = cardsContainerEl.querySelector(".next--card");
     const nextCardEl_1 = cardsContainerEl.querySelector(".next--card-1");
+    // const nextCardEl_2 = cardsContainerEl.querySelector(".next--card-2");
     
 
     const currentBgImageEl = appBgContainerEl.querySelector(".current--image");
     const previousBgImageEl = appBgContainerEl.querySelector(".previous--image");
     const nextBgImageEl = appBgContainerEl.querySelector(".next--image");
     const nextBgImageEl_1 = appBgContainerEl.querySelector(".next--image-1");
-    const previousBgImageEl_1 = appBgContainerEl.querySelector(".previous--image-1");   
+    const previousBgImageEl_1 = appBgContainerEl.querySelector(".previous--image-1");
+    // const nextBgImageEl_2 = appBgContainerEl.querySelector(".next--image-2");   
   
     changeInfo(direction);
     swapCardsClass();
@@ -42,12 +44,14 @@ function swapCards(direction) {
       nextCardEl.classList.remove("next--card");
       previousCardEl_1.classList.remove("previous--card-1");
       nextCardEl_1.classList.remove("next--card-1");
+      // nextCardEl_2.classList.remove("next--card-2");
   
       currentBgImageEl.classList.remove("current--image");
       previousBgImageEl.classList.remove("previous--image");
       nextBgImageEl.classList.remove("next--image");
       previousBgImageEl_1.classList.remove("previous--image-1");
       nextBgImageEl_1.classList.remove("next--image-1");
+      // nextBgImageEl_2.classList.remove("next--image-2");
   
       currentCardEl.style.zIndex = "50";
 

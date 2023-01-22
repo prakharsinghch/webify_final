@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\..\\assests\\movieCardPics\\GraveOfThe.jpg":[["GraveOfThe.73e99571.jpg","assests/movieCardPics/GraveOfThe.jpg"],"assests/movieCardPics/GraveOfThe.jpg"],"./..\\..\\assests\\movieCardPics\\TheLionKing.jpg":[["TheLionKing.bab082e3.jpg","assests/movieCardPics/TheLionKing.jpg"],"assests/movieCardPics/TheLionKing.jpg"],"./..\\..\\assests\\movieCardPics\\Acrossthespiderverse.jpg":[["Acrossthespiderverse.b8a83ef2.jpg","assests/movieCardPics/Acrossthespiderverse.jpg"],"assests/movieCardPics/Acrossthespiderverse.jpg"],"./..\\..\\assests\\movieCardPics\\spiritedaway.png":[["spiritedaway.77dba530.png","assests/movieCardPics/spiritedaway.png"],"assests/movieCardPics/spiritedaway.png"],"./..\\..\\assests\\movieCardPics\\KiminoNawa.jpg":[["KiminoNawa.a2e7cbed.jpg","assests/movieCardPics/KiminoNawa.jpg"],"assests/movieCardPics/KiminoNawa.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "15837" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52658" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

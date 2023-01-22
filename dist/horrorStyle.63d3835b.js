@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\..\\assests\\movieCardPics\\Alien.png":[["Alien.4ba4489c.png","assests/movieCardPics/Alien.png"],"assests/movieCardPics/Alien.png"],"./..\\..\\assests\\movieCardPics\\Psycho.jpg":[["Psycho.6f182c67.jpg","assests/movieCardPics/Psycho.jpg"],"assests/movieCardPics/Psycho.jpg"],"./..\\..\\assests\\movieCardPics\\TheShining.jpg":[["TheShining.11e8e4e0.jpg","assests/movieCardPics/TheShining.jpg"],"assests/movieCardPics/TheShining.jpg"],"./..\\..\\assests\\movieCardPics\\TheThing.jpg":[["TheThing.c50e213f.jpg","assests/movieCardPics/TheThing.jpg"],"assests/movieCardPics/TheThing.jpg"],"./..\\..\\assests\\movieCardPics\\Tumbbad.jpeg":[["Tumbbad.65870143.jpeg","assests/movieCardPics/Tumbbad.jpeg"],"assests/movieCardPics/Tumbbad.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "15837" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52658" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

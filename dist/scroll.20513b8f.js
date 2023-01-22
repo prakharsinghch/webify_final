@@ -140,11 +140,15 @@ function swapCards(direction) {
   var previousCardEl_1 = cardsContainerEl.querySelector(".previous--card-1");
   var nextCardEl = cardsContainerEl.querySelector(".next--card");
   var nextCardEl_1 = cardsContainerEl.querySelector(".next--card-1");
+  // const nextCardEl_2 = cardsContainerEl.querySelector(".next--card-2");
+
   var currentBgImageEl = appBgContainerEl.querySelector(".current--image");
   var previousBgImageEl = appBgContainerEl.querySelector(".previous--image");
   var nextBgImageEl = appBgContainerEl.querySelector(".next--image");
   var nextBgImageEl_1 = appBgContainerEl.querySelector(".next--image-1");
   var previousBgImageEl_1 = appBgContainerEl.querySelector(".previous--image-1");
+  // const nextBgImageEl_2 = appBgContainerEl.querySelector(".next--image-2");   
+
   changeInfo(direction);
   swapCardsClass();
   function swapCardsClass() {
@@ -153,11 +157,15 @@ function swapCards(direction) {
     nextCardEl.classList.remove("next--card");
     previousCardEl_1.classList.remove("previous--card-1");
     nextCardEl_1.classList.remove("next--card-1");
+    // nextCardEl_2.classList.remove("next--card-2");
+
     currentBgImageEl.classList.remove("current--image");
     previousBgImageEl.classList.remove("previous--image");
     nextBgImageEl.classList.remove("next--image");
     previousBgImageEl_1.classList.remove("previous--image-1");
     nextBgImageEl_1.classList.remove("next--image-1");
+    // nextBgImageEl_2.classList.remove("next--image-2");
+
     currentCardEl.style.zIndex = "50";
     currentBgImageEl.style.zIndex = "-2";
     if (direction === "right") {
@@ -221,7 +229,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "15837" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52658" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\..\\assests\\movieCardPics\\TheDarkKnight.jpg":[["TheDarkKnight.1565f5ce.jpg","assests/movieCardPics/TheDarkKnight.jpg"],"assests/movieCardPics/TheDarkKnight.jpg"],"./..\\..\\assests\\movieCardPics\\Inception.jpg":[["Inception.a9d954b8.jpg","assests/movieCardPics/Inception.jpg"],"assests/movieCardPics/Inception.jpg"],"./..\\..\\assests\\movieCardPics\\lordofring.jpg":[["lordofring.b47199c5.jpg","assests/movieCardPics/lordofring.jpg"],"assests/movieCardPics/lordofring.jpg"],"./..\\..\\assests\\movieCardPics\\TheMatrix.jpg":[["TheMatrix.f6b80305.jpg","assests/movieCardPics/TheMatrix.jpg"],"assests/movieCardPics/TheMatrix.jpg"],"./..\\..\\assests\\movieCardPics\\starwars.jpg":[["starwars.8442d3aa.jpg","assests/movieCardPics/starwars.jpg"],"assests/movieCardPics/starwars.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "15837" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52658" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

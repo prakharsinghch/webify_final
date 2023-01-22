@@ -286,6 +286,11 @@ button:focus {
     height: 100%;
   }  
 
+.About--us {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 @media only screen and (min-width: 800px) {
   :root {
