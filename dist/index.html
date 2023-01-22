@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bingewatch</title>
+	<meta name="description" content="An experimental circular SVG text animation">
+	<meta name="keywords" content="animation, svg, text, typography, intro, javascript">
+	<meta name="author" content="Codrops">
+	<link rel="shortcut icon" href="/favicon.26242483.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/kxo3pgz.css">
+	<link rel="stylesheet" type="text/css" href="/base.98fd6c19.css">
+	<link rel="stylesheet" type="text/css" href="/scroll.fab01858.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300&family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
+	<script>document.documentElement.class = "js";
+var supportsCssVars = function supportsCssVars() {
+  var e,
+    t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+<script src="/base.98fd6c19.js"></script><script src="/scroll.fab01858.js"></script></head>
+
+<body class="demo-2 loading">
+	
+	<main>
+		
+		<svg class="circles" width="100%" height="100%" viewBox="0 0 1400 1400">
+			<def>
+				<path id="circle-1" d="M250,700.5A450.5,450.5 0 1 11151,700.5A450.5,450.5 0 1 1250,700.5"></path>
+				<path id="circle-2" d="M382,700.5A318.5,318.5 0 1 11019,700.5A318.5,318.5 0 1 1382,700.5"></path>
+				<path id="circle-3" d="M487,700.5A213.5,213.5 0 1 1914,700.5A213.5,213.5 0 1 1487,700.5"></path>
+				<path id="circle-4" d="M567.5,700.5A133,133 0 1 1833.5,700.5A133,133 0 1 1567.5,700.5"></path>
+			</def>
+			<text class="circles__text circles__text--1">
+				<textPath class="circles__text-path" xlink:href="#circle-1" aria-label="" textLength="2830">I feel the need - the need for speed!!&nbsp;</textPath>
+			</text>
+			<text class="circles__text circles__text--2">
+				<textPath class="circles__text-path" xlink:href="#circle-2" aria-label="" textLength="2001">Manners maketh man &nbsp;</textPath>
+			</text>
+			<text class="circles__text circles__text--3">
+				<textPath class="circles__text-path" xlink:href="#circle-3" aria-label="" textLength="1341">A martini. Shaken, not stirred.&nbsp;</textPath>
+			</text>
+			<text class="circles__text circles__text--4">
+				<textPath class="circles__text-path" xlink:href="#circle-4" aria-label="" textLength="836">तुम्हारानाम.क्याहैबसंती?&nbsp;</textPath>
+			</text>
+		</svg>
+		<div class="frame">
+			<h1 class="frame__title"></h1>
+		
+	
+		</div>
+		<div class="content">
+				<h1>so what will you see</h1>
+			<div class="app">	
+			
+
+				<div class="cardList">
+					<button class="cardList__btn btn btn--left">
+						<div class="icon">
+							<svg>
+								<use xlink:href="#arrow-left"></use>
+							</svg>
+						</div>
+					</button>
+			
+					<div class="cards__wrapper">
+					
+						<div class="card current--card">
+
+							<div class="card__image">
+									<img src="/horror.6815f03f.jpg" alt="">  
+									<div class="info current--info">
+										<a href="/movie_types\horror\design-horror.html"><h1 class="text name">HORROR</h1></a>
+									</div>
+							</div>
+				
+						</div>
+						<div class="card next--card">
+							<div class="card__image">
+								<img src="/mystery.42ef4b1e.jpg" alt="">
+								<div class="info next--info">
+									<a href="/movie_types\mystery\design-mystery.html"><h1 class="text name">MYSTERY</h1></a>
+								</div>
+							</div>
+						</div>
+			
+						<div class="card previous--card">
+							<div class="card__image">
+								<img src="/anime.96a01e98.jpg" alt="">
+								<div class="info previous--info">
+									<a href="/movie_types\anime\design-anime.html"><h1 class="text name">ANIME</h1></a>
+								</div>
+				
+							</div>
+						</div>
+						
+						<div class="card next--card-1">
+							<div class="card__image">
+								<img src="/rom-com.a8badb31.jpg" alt="">
+										
+								<div class="info next--info-1">
+									<a href="/movie_types\rom-com\design-rom_com.html"><h1 class="text name">ROM-COM</h1></a>
+								</div>
+										
+							</div>
+						</div>
+
+						
+						<div class="card previous--card-1">
+							<div class="card__image">
+								<img src="/action.184753ec.jpg" alt="">
+								<div class="info previous--info-1">
+									<a href="/movie_types\action\action-html.html"><h1 class="text name">ACTION</h1></a>
+								</div>
+							</div>
+						</div>
+					</div>
+			
+					<button class="cardList__btn btn btn--right">
+						<div class="icon">
+							<svg>
+								<use xlink:href="#arrow-right"></use>
+							</svg>
+						</div>
+					</button>
+				</div>
+
+				<!-- <div class="infoList">
+					<div class="info__wrapper">
+				
+
+						<div class="info next--info-1">
+							<h1 class="text name">ROM-COM</h1>
+						</div>
+									
+						<div class="info previous--info">
+							<h1 class="text name">ANIME</h1>
+						</div>
+		
+						<div class="info previous--info-1">
+							<h1 class="text name">ACTION</h1>
+						</div>
+					</div>
+				</div> -->
+			
+			
+			
+			
+				<div class="app__bg">
+					<div class="app__bg__image current--image">
+						<img src="/horror.6815f03f.jpg" alt="">
+					</div>
+					<div class="app__bg__image next--image">
+						<img src="/mystery.42ef4b1e.jpg" alt="">
+					</div>
+					<div class="app__bg__image previous--image">
+						<img src="/anime.96a01e98.jpg" alt="">
+					</div>
+					<div class="app__bg__image next--image-1">
+						<img src="/rom-com.a8badb31.jpg" alt="">
+					</div>
+					<div class="app__bg__image previous--image-1">
+						<img src="/action.184753ec.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		
+			
+			<svg class="icons" style="display: none;">
+				<symbol id="arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+					<polyline points="328 112 184 256 328 400" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"></polyline>
+				</symbol>
+				<symbol id="arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+					<polyline points="184 112 328 256 184 400" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"></polyline>
+				</symbol>
+			</svg>
+			
+		
+
+		
+		<button class="enter">
+			<div class="enter__bg"></div>
+			<span class="enter__text">enter</span>
+		</button>
+	</main>
+	<script src="/demo1.151408fb.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+	<script src="/scroll.20513b8f.js"></script>
+</body>
+
+</html>
